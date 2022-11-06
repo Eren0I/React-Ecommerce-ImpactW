@@ -6,14 +6,7 @@ import shopdata from "./components/shopdata"
 import Cardcomp from './components/Card'
 
 function App() {
-const cards = data.map(item=>{
-    return(
-        <Cardcomp 
-            key={item.id}
-            {...item}
-        />
-    )
-})
+
 }
 
 export default App

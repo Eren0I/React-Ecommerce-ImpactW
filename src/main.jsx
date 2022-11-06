@@ -7,6 +7,7 @@ import Cardcomp from "./components/Card"
 import Shophead from "./components/Shophead"
 import './index.css'
 import shopdata from "./components/shopdata"
+import Register from "./components/Register"
 
 
 const cards = shopdata.map(item=>{
@@ -26,5 +27,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <section className="cards-list">
 {cards}
   </section>
+  <Register/>
   </React.StrictMode>
 )

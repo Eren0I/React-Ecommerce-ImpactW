@@ -108,7 +108,6 @@ font-family: 'Zen Antique Soft', serif; */
   flex: 0 0 auto;         
   display: flex;          
   flex-direction: column; 
-  position: relative;
   align-items: center;
   cursor: pointer;
   transform: scale(1, 1);
@@ -117,16 +116,29 @@ font-family: 'Zen Antique Soft', serif; */
 }
  .card:hover{
    transform: scale(1.1,1.1)
+   
  }
 .card--image {
   width: 100%;
   height: 80%;
   border-radius: 9px;
-  margin-bottom: 9px;
+
+}
+.card--image:hover{
+  filter: brightness(50%);
 }
 .card--title {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 .shophead{
@@ -144,4 +156,137 @@ justify-content: center;
 }
 .bold{
   font-weight: bold;
+}
+.f-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+}
+
+.f-holder .f-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.f-content .f-items {
+    border: 3px solid #eebbc3;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.f-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.f-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.f-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+/* reg */
+.regform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+padding: 0.25rem;
+border-radius: 0.5rem;
+}
+
+label {
+margin-top: 1rem;
+}
+
+button {
+padding: 0.5rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
 }

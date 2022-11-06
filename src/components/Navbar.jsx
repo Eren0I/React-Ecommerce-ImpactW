@@ -15,20 +15,7 @@ function Navnew() {
     function toggle(){
         setShowCart(prevShowCart=> !prevShowCart)
     }
-    const popover = (
-        <Popover id="popover-basic">
-          <Popover.Body>
-            Your <strong>Cart</strong> content. It's very engaging.
-            right?
-          </Popover.Body>
-        </Popover>
-      );
-      
-      const Example = () => (
-        <OverlayTrigger trigger="click" placement="down" overlay={popover}>
-          <Button variant="success">Click me to see</Button>
-        </OverlayTrigger>
-      );
+
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
