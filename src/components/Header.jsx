@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 function Header(){
     return(
-        <Container>
-        <Row className="entry">
+        <Container className="entry">
+        <Row>
           <Col><div><h1 className="headerbrand">ImpactW</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></Col>
           <Col>
@@ -15,7 +15,7 @@ function Header(){
           <div className="creditcard__number">4145 5441 1271 6781</div>
           <div className="creditcard__expiry-date">10/27</div>
           <div className="creditcard__owner">Jane Doe</div>
-          <img className="creditcard__logo" src="./public/visa.png"/>
+          <img className="creditcard__logo" src="../../public/visa.png"/>
           </div>
          </div>
          </div>

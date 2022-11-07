@@ -8,6 +8,7 @@ import Shophead from "./components/Shophead"
 import './index.css'
 import shopdata from "./components/shopdata"
 import Register from "./components/Register"
+import Testimonial from "./components/Testimonial"
 
 
 const cards = shopdata.map(item=>{
@@ -23,10 +24,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <Navnew />
   <Header />
+  <Testimonial className="testi" />
   <Shophead />
   <section className="cards-list">
 {cards}
   </section>
+  <App />
   <Register/>
   </React.StrictMode>
 )
