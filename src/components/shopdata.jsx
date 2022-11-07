@@ -43,7 +43,7 @@ export default [
         title: "Casual T-shirts",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
         price: 10,
-        coverpng: "tech4.png",
+        coverpng: 'tech4.png',
         stats: {
             rating: 4.8,
             reviewCount: 2

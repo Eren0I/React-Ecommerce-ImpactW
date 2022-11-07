@@ -10,7 +10,7 @@ function App() {
     return(
         <div className='stcont'>
 <h1>W store</h1>
-{showItem ?  <StripeContainer/> : <> <h4>$22</h4> <img src='../public/images/tech.png' alt="tshirt"/> <Button size="md" variant="info" onClick={() => setShowItem(true)}>Purchase</Button></>}
+{showItem ?  <StripeContainer/> : <> <h4>$22</h4> <img src='/public/images/tech.png' alt="tshirt"/> <Button size="md" variant="info" onClick={() => setShowItem(true)}>Purchase</Button></>}
 </div>
 );}
 
