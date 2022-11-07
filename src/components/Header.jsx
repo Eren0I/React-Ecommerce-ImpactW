@@ -15,7 +15,7 @@ function Header(){
           <div className="creditcard__number">4145 5441 1271 6781</div>
           <div className="creditcard__expiry-date">10/27</div>
           <div className="creditcard__owner">Jane Doe</div>
-          <img className="creditcard__logo" src="../../public/visa.png"/>
+          <img className="creditcard__logo" src="public/visa.png"/>
           </div>
          </div>
          </div>

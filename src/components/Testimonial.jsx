@@ -7,26 +7,26 @@ export default function Testimonials(){
             <div className="marquee-container">
                 <div className="marquee">
                 <div className="marquee-inner">
-                 <div className="logo"><img src="/images/stripe.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/paypal.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/amazon.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/shopify.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/zara.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/react.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/github.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/ebay.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/stripe.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/paypal.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/amazon.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/shopify.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/zara.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/react.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/github.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/ebay.png" height="100%" width="100%"/></div>
                  </div>
                  </div>
                 <div className="marquee">
                 <div className="marquee-inner">
-                 <div className="logo"><img src="/tree/main/public/images/images/stripe.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/paypal.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/amazon.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/shopify.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/zara.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/react.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/github.png" height="100%" width="100%"/></div>
-                 <div className="logo"><img src="/images/ebay.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/stripe.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/paypal.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/amazon.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/shopify.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/zara.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/react.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/github.png" height="100%" width="100%"/></div>
+                 <div className="logo"><img src="images/ebay.png" height="100%" width="100%"/></div>
                  </div>
                 </div>
                 </div>
