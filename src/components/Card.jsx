@@ -16,8 +16,8 @@ function Cardcomp(props) {
     {
                 badgeText && 
                 <div className="card--badge">{badgeText}</div>
-            }                                       
-      <Image className="card--image" variant="top"  src={`/public/images/${props.coverpng}`} />
+            }
+      <Image className="card--image" variant="top" src={`/public/images/${props.coverpng}`} />
       <Card.Body>
         <Card.Title className="card--title">{props.title}</Card.Title>
         <Card.Text className="card--price"><span className="bold">$ {props.price}</span></Card.Text>
